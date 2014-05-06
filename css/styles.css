@@ -1,0 +1,142 @@
+body {
+	background-color: teal;
+	color: black;
+	font-family: Helvetica, Arial;
+	font-size: 13px;
+
+}
+
+.wrapper {
+	background-color: #ececec;
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #ececec;
+	background-image: url("http://walls-world.com/wp-content/uploads/2013/10/Summer-Sky-Wallpaper.jpeg");
+	background-attachment: scroll;
+	padding: 10px;
+}
+
+article {
+	background-color: #ececec;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.leftside{
+	background-color: #ececec;
+	width: 50%;
+	display: inline;
+	float: left;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.rightside{
+	background-color: #ececec;
+	width: 50%;
+	display: inline;
+	float: right;
+	border-left: 1px solid #cccccc;
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+	-webkit-column-gap:10px;
+	-moz-column-gap:10px;
+	column-gap:10px;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+footer {
+	background-color: #ececec;
+	clear: both;
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+.contact{
+	background-color: #ececec;
+}
+
+h1 {
+	color: black;
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold; 
+	border-bottom: 5px solid teal;
+	text-align: center;
+
+}
+
+h2{
+	color: Orange;
+	font-family: Georgia;
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-style: italic;
+	font-weight: normal; 
+	border-bottom: 2px dashed orange;
+}
+
+
+.logo {
+	width: 100px;
+}
+
+.pic {
+	width: 100%;
+	border: 5px solid white;
+	margin-bottom: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+b {
+	font-weight: bold;
+}
+
+i {
+	font-style:italic;
+}
+
+u {
+	text-decoration: underline;
+}
+
+
+a, a:link, a:active, a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: teal;
+	
+ }
+ a:hover{
+ 	background-color: teal;
+ 	color: white;
+ }
+/* 
+b= bold
+u= underline
+i= italicised
+
+
+font-family = font name
+font-size = font size, you can use px or pt
+*/
+
+.leftside h1:first-child {
+	position: relative;
+	margin-top: -10px;
+}
